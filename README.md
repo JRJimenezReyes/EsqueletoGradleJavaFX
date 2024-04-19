@@ -1,8 +1,8 @@
 # Esqueleto gradle con las dependencias para JavaFX
 
-#### Autor: José Ramón Jiménez Reyes
+## Autor: José Ramón Jiménez Reyes
 
-#### Descripción
+## Descripción
 
 En este repositorio encontrarás el esqueleto de un proyecto para **Eclipse** (aunque podría utilizarse en otros IDEs).
 
@@ -10,7 +10,7 @@ Dicho proyecto contiene las dependencias **gradle** para trabajar con **JavaFX**
 
 También contiene una clase pricipal de ejemplo `Main` y la correspondiente clase lanzadora `LanzadoraMain`.
 
-#### Uso
+## Uso
 
 Lo primero que debes hacer es clonar el repositorio en Eclipse. 
 
@@ -20,7 +20,7 @@ Deberás cambiar el nombre del proyecto para adecuarlo a tus preferencias. Para 
 
 Finalmente deberás abrir el archivo `settings.gradle` y cambiar el nombre de proyecto ahí también, ya que eso no lo hace Eclipse en la refactorización. Por último, pincha con el botón derecho sobre el proyecto y elige la opción `Gradle | Refresh Gradle Project`.
 
-#### Ejecución
+## Ejecución
 
 Utiliza la tarea `run` asociada para ejecutarlo o desde la línea de comandos puedes utilizar el comando `./gradlew run`.
 
