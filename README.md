@@ -4,11 +4,11 @@
 
 #### Descripción
 
-En este repositorio encontrarás el esqueleto de un proyecto que lanza una ventana sencilla de ejemplo, utilizando JavaFX.
+En esta rama tienes el esqueleto de un proyecto que lanza una ventana sencilla de ejemplo, utilizando JavaFX. Este proyecto utiliza FXML para el diseño de la ventana y utiliza un controlador.
 
 Dicho proyecto contiene las dependencias **gradle** para trabajar con **JavaFX** y para empaquetarlo correctamente. Notar qure es un proyecto no modular, por lo que al ejecutarlo desde el IDE lanzará una advertencia indicándolo, que podemos obviar.
 
-También contiene una clase pricipal de ejemplo `Main` y la correspondiente clase lanzadora `LanzadoraMain`.
+He metido la clase `Controlador` que será de la que deberán heredar todos los controladores para poder utilizar otra clase, llamada `Controladores`, que nos facilita la carga de las diferentes vistas. En el ejemplo puedes ver su funcionamiento.
 
 #### Uso
 
@@ -23,6 +23,8 @@ Abre el archivo `settings.gradle` y cambia el nombre de proyecto ahí también.
 Si vas a utilizar un VCS, crea el repositorio conveniente.
 
 Por último, empieza a hacer las modificaciones necesarias para crear tu aplicación.
+
+Los recursos están en el directorio `resources`. Para poder cargarlos adecuadamente, te he añadido la interfaz marcadora `LocalizadorRecursos`. Fíjate en la estructura de paquetes
 
 #### Ejecución
 
