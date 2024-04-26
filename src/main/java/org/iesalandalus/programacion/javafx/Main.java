@@ -9,14 +9,10 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage escenarioPrincipal) {
-		try {
-			Controlador ventanaPrincipal = Controladores.get("/vistas/HolaMundo.fxml", "Hola mundo desde JavaFX", null);
-			ventanaPrincipal.addHojaEstilos("/estilos/aplicacion.css");
-			ventanaPrincipal.addIcono("/imagenes/iconoSaludar.png");
-			ventanaPrincipal.getEscenario().show();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		Controlador ventanaPrincipal = Controladores.get("/vistas/HolaMundo.fxml", "Hola mundo desde JavaFX", null);
+		ventanaPrincipal.addHojaEstilos("/estilos/aplicacion.css");
+		ventanaPrincipal.addIcono("/imagenes/iconoSaludar.png");
+		ventanaPrincipal.getEscenario().show();
 	}
 
 
