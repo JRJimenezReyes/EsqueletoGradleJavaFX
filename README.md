@@ -4,11 +4,11 @@
 
 #### Descripción
 
-En esta rama tienes el esqueleto de un proyecto que lanza una ventana sencilla de ejemplo, utilizando JavaFX. Este proyecto utiliza FXML para el diseño de la ventana y utiliza un controlador.
+En este repositorio encontrarás el esqueleto de un proyecto que utiliza recursos (imágenes y hojas de estilo). Además, el diseño se ha realizado con FXML y se utilizan los respectivos controladores. Todo ello se ha hecho basándonos en la clase `Controlador` de la que heredan los controladores y que nos ofrece una funcionalidad común a todos como es poder acceder a su escenario, añadir una hoja de estilos a la escena asociada al escenario y añadir un icono al escenario asociado. La clase de utilidades `Controladores` se basa en la clase anterior, para almacenar en un mapa la vista FXML y su controlador. Antes de cargar la vista y crear el escenario para asociarlo a la vista, se consulta el mapa para ver si ya está creada, en cuyo caso se devulve directamente y en caso contrario se crea. A la hora de crearla, se carga la vista FXML, se lee su controlador, se crea un escenario con una escena cuyo contenedor principal es la vista FXML y este escenario se asignará al controlador para posteriormente poder acceder al mismo.
 
 Dicho proyecto contiene las dependencias **gradle** para trabajar con **JavaFX** y para empaquetarlo correctamente. Notar qure es un proyecto no modular, por lo que al ejecutarlo desde el IDE lanzará una advertencia indicándolo, que podemos obviar.
 
-He metido la clase `Controlador` que será de la que deberán heredar todos los controladores para poder utilizar otra clase, llamada `Controladores`, que nos facilita la carga de las diferentes vistas. En el ejemplo puedes ver su funcionamiento.
+En el ejemplo puedes ver su funcionamiento de todo el conjunto y comprobar cómo estas clases nos facilitan el trabajo.
 
 #### Uso
 
