@@ -4,11 +4,11 @@
 
 #### Descripción
 
-En este repositorio encontrarás el esqueleto de un proyecto que lanza una ventana sencilla de ejemplo, utilizando JavaFX.
+En este repositorio encontrarás el esqueleto de un proyecto que utiliza recursos (imágenes y hojs de estilo). Además, el diseño se ha realizado con FXML y se utilizano los respectivos controladores.
 
-Dicho proyecto contiene las dependencias **gradle** para trabajar con **JavaFX** y para empaquetarlo correctamente. Notar qure es un proyecto no modular, por lo que al ejecutarlo desde el IDE lanzará una advertencia indicándolo, que podemos obviar.
+Dicho proyecto contiene las dependencias **gradle** para trabajar con **JavaFX** y para empaquetarlo correctamente. Notar que es un proyecto no modular, por lo que al ejecutarlo desde el IDE lanzará una advertencia indicándolo, que podemos obviar.
 
-También contiene una clase pricipal de ejemplo `Main` y la correspondiente clase lanzadora `LanzadoraMain`.
+También contiene una clase principal de ejemplo `Main` y la correspondiente clase lanzadora `LanzadoraMain`.
 
 #### Uso
 

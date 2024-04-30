@@ -8,13 +8,12 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Objects;
 
 public class Main extends Application {
 
 	@Override
 	public void start(Stage escenarioPrincipal) throws IOException {
-        VBox raiz = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/vistas/HolaMundo.fxml")));
+        VBox raiz = FXMLLoader.load(getClass().getResource("/vistas/HolaMundo.fxml"));
         Scene escena = new Scene(raiz);
 		escena.getStylesheets().add(getClass().getResource("/estilos/aplicacion.css").toExternalForm());
 		escenarioPrincipal.setTitle("Hola mundo desde JavaFX");
