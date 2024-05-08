@@ -2,8 +2,8 @@ package org.iesalandalus.programacion.javafx;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import org.iesalandalus.programacion.javafx.controladores.Controlador;
-import org.iesalandalus.programacion.javafx.controladores.Controladores;
+import org.iesalandalus.programacion.javafx.utilidades.Controlador;
+import org.iesalandalus.programacion.javafx.utilidades.Controladores;
 
 public class Main extends Application {
 

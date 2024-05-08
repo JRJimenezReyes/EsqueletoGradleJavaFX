@@ -1,4 +1,6 @@
 package org.iesalandalus.programacion.javafx.controladores;
 
-public class Saludo extends Controlador{
+import org.iesalandalus.programacion.javafx.utilidades.Controlador;
+
+public class Saludo extends Controlador {
 }

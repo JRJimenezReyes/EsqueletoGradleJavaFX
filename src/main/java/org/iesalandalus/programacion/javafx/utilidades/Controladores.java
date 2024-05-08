@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.javafx.controladores;
+package org.iesalandalus.programacion.javafx.utilidades;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
