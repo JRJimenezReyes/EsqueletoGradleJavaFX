@@ -8,7 +8,7 @@ En este repositorio hay tres ramas, cada una de ellas con un esqueleto gradle pa
 
 - [sencilla](../../tree/sencilla): Esta rama simplemente lanza una ventana simple.
 - [recursos](../../tree/recursos): Esta rama lanza una ventana. El diseño está realizado con FXML, se utilizan los correspondientes controladores y también se utilizan recursos como imágenes y hojas de estilo.
-- [recursos-utilidades](../../tree/recursos-utilidades): Esta otra rama hace lo mismo que la anterior. Sin embargo, hace uso de la clase `Controlador` y de la clase de utilidades `Controladores` que facilita el trabajo a la hora de cargar diferentes vistas FXML en nestra aplicación. También hay una clase de utilidades nombrada como `Dialogos` para lanzar diferentes diálogos y otra llamada `Controles` que nos facilitan algunas acciones sobre controles.
+- [recursos-utilidades](../../tree/recursos-utilidades): Esta otra rama hace lo mismo que la anterior. Sin embargo, hace uso de la clase `Controlador` y de la clase de utilidades `Controladores` que facilita el trabajo a la hora de cargar diferentes vistas FXML en nuestra aplicación. También hay una clase de utilidades nombrada como `Dialogos` para lanzar diferentes diálogos y otra llamada `Controles` que nos facilitan algunas acciones sobre controles.
 
 Cada proyecto contiene las dependencias **gradle** para trabajar con **JavaFX** y para empaquetarlo correctamente. Notar qure son proyectos no modulares, por lo que al ejecutarlos desde el IDE lanzará una advertencia indicándolo, que podemos obviar.
 
