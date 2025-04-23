@@ -17,12 +17,12 @@ public class Main extends Application {
 		raiz.setPadding(new Insets(50, 50, 50, 50));
 		raiz.setAlignment(Pos.CENTER);
 
-		Label lbRotada = new Label();
-		lbRotada.setText("Hola mundo desde JavaFX!!!!");
-		lbRotada.setFont(Font.font("Arial", 40));
-		lbRotada.setMinWidth(150);
+		Label lbMensaje = new Label();
+		lbMensaje.setText("Hola mundo desde JavaFX!!!!");
+		lbMensaje.setFont(Font.font("Arial", 40));
+		lbMensaje.setMinWidth(150);
 
-		raiz.getChildren().add(lbRotada);
+		raiz.getChildren().add(lbMensaje);
 		Scene escena = new Scene(raiz, 650, 150);
 		escenarioPrincipal.setTitle("Hola mundo desde JavaFX");
 		escenarioPrincipal.setScene(escena);
